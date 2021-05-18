@@ -11,6 +11,7 @@ qx.Theme.define("sknick.theme.darkweb.Decoration",
               */
             "material-textfield": {
                 style: {
+                    radius: 4,
                     styleBottom: "solid",
                     widthBottom: 1,
                     colorBottom: "primary"
@@ -903,7 +904,7 @@ qx.Theme.define("sknick.theme.darkweb.Decoration",
                     style:
                         {
                             width: 1,
-                            radius: 2,
+                            radius: 4,
                             color: "text-hint-on-surface",
                             backgroundColor: "surface"
                         }

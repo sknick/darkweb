@@ -8,14 +8,14 @@
 qx.Theme.define("sknick.theme.darkweb.Font", {
     fonts: {
         "default": {
-            size: 14,
+            size: 16,
             family: ["Verdana", "sans-serif"],
             color: "text-primary-on-surface"
         },
 
         "bold":
             {
-                size: 14,
+                size: 16,
                 family: ["Verdana", "sans-serif"],
                 bold: true,
                 color: "text-primary-on-surface"
@@ -30,14 +30,14 @@ qx.Theme.define("sknick.theme.darkweb.Font", {
 
         "small":
             {
-                size: 12,
+                size: 14,
                 family: ["Verdana", "sans-serif"],
                 color: "text-primary-on-surface"
             },
 
         "monospace":
             {
-                size: 14,
+                size: 16,
                 family: ["monospace"],
                 color: "text-primary-on-surface"
             }
