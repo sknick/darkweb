@@ -9,92 +9,37 @@ qx.Theme.define("sknick.theme.darkweb.Font", {
     fonts: {
         "default": {
             size: 14,
-            family: ["sans-serif"],
-            color: "text-primary-on-surface",
-            sources: [
-                {
-                    family: "Roboto",
-                    source: [
-                        "qx/font/Roboto/roboto-v18-latin_latin-ext-regular.eot",
-                        "qx/font/Roboto/roboto-v18-latin_latin-ext-regular.woff2",
-                        "qx/font/Roboto/roboto-v18-latin_latin-ext-regular.woff",
-                        "qx/font/Roboto/roboto-v18-latin_latin-ext-regular.ttf"
-                    ]
-                }
-            ]
+            family: ["Verdana", "sans-serif"],
+            color: "text-primary-on-surface"
         },
 
         "bold":
             {
                 size: 14,
-                family: ["sans-serif"],
+                family: ["Verdana", "sans-serif"],
                 bold: true,
-                color: "text-primary-on-surface",
-                sources: [
-                    {
-                        family: "Roboto",
-                        source: [
-                            "qx/font/Roboto/roboto-v18-latin_latin-ext-700.eot",
-                            "qx/font/Roboto/roboto-v18-latin_latin-ext-700.woff2",
-                            "qx/font/Roboto/roboto-v18-latin_latin-ext-700.woff",
-                            "qx/font/Roboto/roboto-v18-latin_latin-ext-700.ttf"
-                        ]
-                    }
-                ]
+                color: "text-primary-on-surface"
             },
 
         "headline":
             {
                 size: 24,
-                family: ["sans-serif"],
-                color: "text-primary-on-surface",
-                sources: [
-                    {
-                        family: "Roboto",
-                        source: [
-                            "qx/font/Roboto/roboto-v18-latin_latin-ext-regular.eot",
-                            "qx/font/Roboto/roboto-v18-latin_latin-ext-regular.woff2",
-                            "qx/font/Roboto/roboto-v18-latin_latin-ext-regular.woff",
-                            "qx/font/Roboto/roboto-v18-latin_latin-ext-regular.ttf"
-                        ]
-                    }
-                ]
+                family: ["Verdana", "sans-serif"],
+                color: "text-primary-on-surface"
             },
 
         "small":
             {
                 size: 12,
-                family: ["sans-serif"],
-                color: "text-primary-on-surface",
-                sources: [
-                    {
-                        family: "Roboto",
-                        source: [
-                            "qx/font/Roboto/roboto-v18-latin_latin-ext-regular.eot",
-                            "qx/font/Roboto/roboto-v18-latin_latin-ext-regular.woff2",
-                            "qx/font/Roboto/roboto-v18-latin_latin-ext-regular.woff",
-                            "qx/font/Roboto/roboto-v18-latin_latin-ext-regular.ttf"
-                        ]
-                    }
-                ]
+                family: ["Verdana", "sans-serif"],
+                color: "text-primary-on-surface"
             },
 
         "monospace":
             {
                 size: 14,
                 family: ["monospace"],
-                color: "text-primary-on-surface",
-                sources: [
-                    {
-                        family: "Roboto Mono",
-                        source: [
-                            "qx/font/Roboto/roboto-mono-v6-latin_latin-ext-regular.eot",
-                            "qx/font/Roboto/roboto-mono-v6-latin_latin-ext-regular.woff2",
-                            "qx/font/Roboto/roboto-mono-v6-latin_latin-ext-regular.woff",
-                            "qx/font/Roboto/roboto-mono-v6-latin_latin-ext-regular.ttf"
-                        ]
-                    }
-                ]
+                color: "text-primary-on-surface"
             }
     }
 });
