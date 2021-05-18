@@ -820,7 +820,7 @@ qx.Theme.define("sknick.theme.darkweb.Decoration",
                 {
                     style:
                         {
-                            radius: 4,
+                            radius: 16,
                             width: 0,
                             backgroundColor: "text-hint-on-surface"
                         }
@@ -1251,6 +1251,7 @@ qx.Theme.define("sknick.theme.darkweb.Decoration",
                 {
                     style:
                         {
+                            radius: 4,
                             width: 1,
                             color: "text-hint-on-surface"
                         }

@@ -1153,14 +1153,14 @@ qx.Theme.define("sknick.theme.darkweb.Appearance", {
                     }
 
                     return {
-                        height: 8,
-                        width: 8,
-                        marginLeft: 2,
-                        marginTop: 2,
+                        height: 16,
+                        width: 16,
+                        marginLeft: 0,
+                        marginTop: 0,
                         cursor: states.disabled ? undefined : "pointer",
                         decorator: decorator,
-                        minHeight: states.horizontal ? undefined : 30,
-                        minWidth: states.horizontal ? 30 : undefined
+                        minHeight: states.horizontal ? undefined : 8,
+                        minWidth: states.horizontal ? 8 : undefined
                     };
                 }
             },
