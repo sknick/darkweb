@@ -4,7 +4,7 @@ qx.Theme.define("sknick.theme.darkweb.ColorDark", {
     colors: {
         // theme colors
         "primary": "#355a7c",
-        "secondary": "#2c4867",
+        "secondary": "#223950",
         "surface": "#222222",
         "error": "#b00020"
     }

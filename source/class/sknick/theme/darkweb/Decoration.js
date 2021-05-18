@@ -55,7 +55,7 @@ qx.Theme.define("sknick.theme.darkweb.Decoration",
 
             "material-button": {
                 style: {
-                    radius: 2,
+                    radius: 4,
                     backgroundColor: "primary",
                     shadowHorizontalLength: 0,
                     shadowVerticalLength: [3, 2, 1],
